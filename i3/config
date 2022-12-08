@@ -19,22 +19,14 @@ set $ws1 2 dev
 set $ws2 3 term
 set $ws3 4 files
 set $ws4 5 music
-set $ws5 6 etc
+set $ws5 6 et
 set $ws6 7 etc
 set $ws7 8 etc
 set $ws8 9 etc
 set $ws9 10 log
 
+# Font and size of it
 font pango:Jetbrains Mono 8
-
-# -- -- -- WINDOW SETTINGS -- -- -- #
-
-# Window workspaces
-assign [class="Brave"]      $ws0
-assign [class="Code"]       $ws1
-assign [class="Alacritty"]  $ws2
-assign [class="Thunar"]     $ws3
-assign [class="Spotify"]    $ws4
 
 # Remove window title & border
 default_border pixel 1
