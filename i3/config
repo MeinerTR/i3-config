@@ -29,9 +29,9 @@ set $ws9 10 log
 font pango:Jetbrains Mono 8
 
 # Remove window title & border
-default_border pixel 1
-default_floating_border pixel 1
-for_window [class="^.*"] border pixel 1
+default_border pixel 0
+default_floating_border pixel 0
+for_window [all] border pixel 0
 
 # -- -- -- KEYBINDING -- -- -- #
 
