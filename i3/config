@@ -10,6 +10,7 @@ exec_always --no-startup-id redshift -O 2500
 
 # -- -- -- VARIABLES -- -- -- #
 
+# Mod Keybinding
 set $mod Mod4
 
 # Workspace names
@@ -33,6 +34,7 @@ assign [class="Brave"]      $ws0
 assign [class="Code"]       $ws1
 assign [class="Alacritty"]  $ws2
 assign [class="Thunar"]     $ws3
+assign [class="Spotify"]    $ws4
 
 # Remove window title & border
 default_border pixel 1
@@ -111,8 +113,8 @@ client.placeholder      #000000 #000000 #FFFFFF #000000   #000000
 client.background       #000000
 
 bar {
-
     mode hide
+    position top
 
     colors {
         background #000000
