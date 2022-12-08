@@ -1,13 +1,2 @@
-# Simple i3 config EXAMPLE!
+# Redshift should be installed!
 
-# You might not have these;
-<pre>
-editor:			vscode
-file-browser:		thunar
-browser:		brave
-music:			spotify
-terminal:		alacritty
-color-temperature:      redshift
-</pre>
-
-# So change these in config to your liking!
