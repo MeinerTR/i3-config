@@ -1,2 +1,3 @@
-# redshift, rofi and alacritty is needed by default!
-
+# Built-in
+redshift, rofi, alacritty,
+feh, Jetbrains Mono, alsa
