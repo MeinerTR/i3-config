@@ -4,9 +4,13 @@
 exec --no-startup-id dex-autostart --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
-# Color temperature
+# Color temperature & gamma
+exec_always --no-startup-id xgamma -gamma 0.8
 exec_always --no-startup-id redshift -x
 exec_always --no-startup-id redshift -O 2500
+
+# Wallpaper
+exec --no-startup-id feh --bg-scale /usr/share/backgrounds/default.jpeg
 
 # -- -- -- VARIABLES -- -- -- #
 
