@@ -1,3 +1,3 @@
 # Built-in
 redshift, rofi, alacritty,
-feh, Jetbrains Mono, alsa
+feh, Jetbrains Mono, xgamma
