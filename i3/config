@@ -3,6 +3,7 @@
 # i3 initialize
 exec --no-startup-id dex-autostart --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 # Color temperature & gamma
 exec_always --no-startup-id xgamma -gamma 0.8
@@ -34,9 +35,9 @@ set $ws9 10 log
 font pango:Jetbrains Mono 8
 
 # Remove window title & border
-default_border pixel 0
-default_floating_border pixel 0
-for_window [all] border pixel 0
+default_border none
+default_floating_border none
+for_window [all] border none
 
 # -- -- -- KEYBINDING -- -- -- #
 
