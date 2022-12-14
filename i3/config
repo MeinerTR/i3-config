@@ -2,8 +2,8 @@
 
 # i3 initialize
 exec --no-startup-id dex-autostart --autostart --environment i3
+exec --no-startup-id lxpolkit
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
-exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 # Color temperature & gamma
 exec_always --no-startup-id xgamma -gamma 0.8
