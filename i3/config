@@ -50,10 +50,10 @@ floating_modifier $mod
 
 # Sound keybindings
 set $refresh_i3status killall -SIGUSR1 i3status
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
-bindsym $mod+bracketright exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
-bindsym $mod+bracketleft exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
+bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -q sset Master 5%+ unmute && $refresh_i3status
+bindsym $mod+bracketright exec --no-startup-id amixer -q sset Master 5%+ unmute && $refresh_i3status
+bindsym XF86AudioLowerVolume exec --no-startup-id amixer -q sset Master 5%- unmute && $refresh_i3status
+bindsym $mod+bracketleft exec --no-startup-id amixer -q sset Master 5%- unmute && $refresh_i3status
 
 # Launch keybindings
 bindsym $mod+Return exec "alacritty"
