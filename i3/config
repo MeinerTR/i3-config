@@ -22,11 +22,11 @@ set $mod Mod4
 # Workspace names
 set $ws0 1 www
 set $ws1 2 dev
-set $ws2 3 term
-set $ws3 4 files
-set $ws4 5 music
-set $ws5 6 game
-set $ws6 7 etc
+set $ws2 3 tasks
+set $ws3 4 term
+set $ws4 5 files
+set $ws5 6 music
+set $ws6 7 game
 set $ws7 8 etc
 set $ws8 9 etc
 set $ws9 10 log
