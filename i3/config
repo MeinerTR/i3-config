@@ -11,7 +11,7 @@ exec_always --no-startup-id redshift -x
 exec_always --no-startup-id redshift -O 2500
 
 # Wallpaper
-exec --no-startup-id feh --bg-scale /usr/share/backgrounds/default.jpeg
+exec --no-startup-id feh --bg-scale /usr/share/backgrounds/default.jpg
 
 
 # -- -- -- VARIABLES -- -- -- #
