@@ -1,0 +1,25 @@
+<actions>
+<action>
+<icon>utilities-terminal</icon>
+<name>Open Terminal Here</name>
+<submenu/>
+<unique-id>1683284893325405-1</unique-id>
+<command>alacritty --working-directory %f </command>
+<description>Example for a custom action</description>
+<range/>
+<patterns>*</patterns>
+<startup-notify/>
+<directories/>
+</action>
+<action>
+<icon>stock_folder-move</icon>
+<name>Unzip selected zips</name>
+<submenu/>
+<unique-id>1683289329497179-1</unique-id>
+<command>for zip in %F;do unzip $zip;done</command>
+<description>Converts zip files to directories</description>
+<range>*</range>
+<patterns>*</patterns>
+<other-files/>
+</action>
+</actions>
