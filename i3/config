@@ -54,7 +54,7 @@ bindsym XF86AudioLowerVolume exec --no-startup-id amixer -q sset Master 5%- unmu
 bindsym $mod+bracketleft exec --no-startup-id amixer -q sset Master 5%- unmute && $refresh_i3status
 
 # Launch keybindings
-bindsym $mod+Return exec "alacritty"
+bindsym $mod+Return exec "kitty"
 bindsym $mod+d exec --no-startup-id "rofi -show drun"
 
 # Focus keybindings
