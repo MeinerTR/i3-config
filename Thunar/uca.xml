@@ -4,7 +4,7 @@
 <name>Open Terminal Here</name>
 <submenu/>
 <unique-id>1683284893325405-1</unique-id>
-<command>alacritty --working-directory %f </command>
+<command>kitty -d %f </command>
 <description>Example for a custom action</description>
 <range/>
 <patterns>*</patterns>
