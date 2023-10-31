@@ -15,8 +15,12 @@ exec --no-startup-id feh --bg-scale /usr/share/backgrounds/default.png
 
 # -- -- -- VARIABLES -- -- -- #
 
-# Mod Keybinding
+# Mod keybinding
 set $mod Mod4
+
+# Keyboard layouts
+exec "setxkbmap -layout us,tr"
+exec "setxkbmap -option 'grp:alt_shift_toggle'"
 
 # Workspace names
 set $ws0 1 www
@@ -31,7 +35,7 @@ set $ws8 9 etc
 set $ws9 10 log
 
 # Font and size of it
-font pango:Fira Code 8
+font pango:0xproto 12
 
 # Remove window title & border
 default_border none
